@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@mipmap/ic_doctor"
+            android:title="Doctor" />
+        <item
+            android:id="@+id/nav_automobile"
+            android:icon="@mipmap/ic_automobile"
+            android:title="Automobile" />
+        <item
+            android:id="@+id/nav_air_ticket"
+            android:icon="@mipmap/ic_plan"
+            android:title="Air Tickets" />
+        <item
+            android:id="@+id/nav_operators"
+            android:icon="@mipmap/ic_computor"
+            android:title="Operators" />
+
+        <item
+            android:id="@+id/nav_car_care"
+            android:icon="@mipmap/ic_auto_care1"
+            android:title="Car care" />
+        <item
+            android:id="@+id/nav_gym"
+            android:icon="@mipmap/ic_gym"
+            android:title="Gym" />
+    </group>
+</menu>

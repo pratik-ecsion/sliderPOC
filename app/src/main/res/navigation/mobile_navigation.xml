@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ecsion.sliderpoc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"
+        app:startDestination="@id/action_nav_home_to_actUsers">
+        <action
+            android:id="@+id/action_nav_home_to_actUsers"
+            app:destination="@id/actUsers"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <activity
+        android:id="@+id/actUsers"
+        android:name="com.ecsion.sliderpoc.ActUsers"
+        android:label="frg_users"
+        tools:layout="@layout/frg_users" />
+
+</navigation>
